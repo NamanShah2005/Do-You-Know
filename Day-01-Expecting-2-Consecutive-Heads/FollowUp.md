@@ -1,4 +1,4 @@
-**Follow-Up Questions**
+# **Follow-Up Questions**
 
 1. A fair coin is tossed repeatedly. What is the expected number of tosses required to obtain **three consecutive heads**?
 
