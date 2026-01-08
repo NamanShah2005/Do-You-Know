@@ -54,9 +54,12 @@ E[X|S = 6] = 9.5
 
 Hence, final Answer = (7 + 7.5 + 8 + 8.5 + 9 + 9.5)/6 = 8.25
 
+
+
 ## **Where did the Assumption given in the Question helped?**
 
-### **(Assumption was : Assume that the cumulative sum immediately before exceeding 6 is uniformly distributed over {1, 2, 3, 4, 5, 6}).**
+
+### **Assumption was : Assume that the cumulative sum immediately before exceeding 6 is uniformly distributed over {1, 2, 3, 4, 5, 6}.**
 
 We Calculated
 
@@ -78,10 +81,10 @@ Hence, final Answer = (7 + 7.5 + 8 + 8.5 + 9 + 9.5)/6 = 8.25
 
 Since,
 
-S = 1 can be in a single way, throwing Die a single time and getting 1 i.e (1)
+S = 1 can be achieved in a single way, throwing Die a single time and getting 1 i.e (1), and for this to be S (the sum before the final throw), the next throw must give 6
 
-S = 2 can be in more ways, throwing die a single time and getting 2, or throwing a die 2 times and getting 1 on each i.e (2), (1,1)
+S = 2 can be achieved in more ways, throwing die a single time and getting 2, or throwing a die 2 times and getting 1 on each i.e (2), (1,1), and for this to be S (the sum before the final throw), the next throw can be one of {5, 6}
 
 S = 3 can have (3), (2,1), (1,2), (1,1,1), Similarly for others.
 
-This means S=1 is less likely than S=6, and here our assumption helps by **Assuming that the cumulative sum immediately before exceeding 6 is uniformly distributed over {1, 2, 3, 4, 5, 6}**
+This means S=1 is less likely to occur than S=2, similarly S=2 is less likely to occur than S=3 and so on.., and here our assumption helps by **Assuming that the cumulative sum immediately before exceeding 6 is uniformly distributed over {1, 2, 3, 4, 5, 6}**
