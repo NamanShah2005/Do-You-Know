@@ -1,4 +1,4 @@
-**Question**
+# **Question**
 
 Roll a fair die repeatedly until the cumulative sum first exceeds 6.
 
