@@ -34,7 +34,7 @@ Hence, E[X|S = 5] = E[(S + D)|S = 5] = E[S|S = 5] + E[D|S = 5]
 
 5 + $\frac{1}{5}\cdot2 + \frac{1}{5}\cdot3 + \cdots + \frac{1}{5}\cdot6$
 
-(NOTE : We Divided by 5 and not by 6, this is because, we have condition that S = 5, and only final role is ;eft, hence, value will only be one of {2, 3, 4, 5, 6}, and never 1)
+(NOTE : We Divided by 5 and not by 6, this is because, we have condition that S = 5, and only final throw is left, hence, value will only be one of {2, 3, 4, 5, 6}, and never 1)
 
 5 + 4 = 9
 
